@@ -1434,11 +1434,124 @@ nav a {
 
 .section_white {
     background-color: white;
+    height: 1150px;
+    color: black;
+    text-align: left;
+    margin: 200px 0 0 0;
+}
+
+.section_white_content {
+    max-width: 1280px;
+    padding: 160px 0;
+    margin: 0 auto;
+}
+
+.section_white_h1 {
+    font-size: 95px; 
+    font-weight: 700;
+    line-height: 0.9;
+    margin: 0 0 0 0;
+    max-width: 775px;
+}
+
+.section_white_p {
+    max-width: 640px;
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.section_white_grid {
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto 0 auto;
+}
+
+.section_white_grid_card {
+    width: 335px;
+    height: 418px;
+    padding: 24px;
+    margin: 0 8px 0 8px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.section_white_grid_card_img {
+    max-width: 100%;
+}
+
+.section_white_grid_card_h4 {
+    font-size: 26px;
+    font-family: 'Afacad', sans-serif;
+    margin: 10px 0 0 0;
+}
+
+.section_white_grid_card_p {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin: 15px 0 15px 0;
+}
+
+.section_white_grid_card_a {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+.section_white_grid_card_a p {
+    margin: 80px 0 0 0;
 }
 
 
+.section_get_started {
+    height: 960px;
+}
 
+.section_get_started_content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 160px 0 0 0;
+}
 
+.section_get_started_grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.section_get_started_grid_card1 {
+    margin-right: 55px;
+    text-align: left;
+}
+
+.section_get_started_grid_card2 {
+    text-align: left;
+    margin: 90px 0 0 55px;
+}
+
+.section_get_started_grid_card_h1 {
+    font-size: 140px; 
+    font-weight: 700;
+    line-height: 0.9;
+    margin: 0 0 0 0;
+    max-width: 775px;
+}
+
+.section_get_started_grid_card_p {
+    font-size: 18px;
+    line-height: 1.3;
+    max-width: 388px;
+    margin: 0 0 30px 0;
+}
+
+.section_get_started_img {
+    width: 100%;
+    margin: 120px 0 0 0;
+}
 
 
 
