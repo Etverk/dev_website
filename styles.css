@@ -117,6 +117,7 @@ nav .navbar_ul li a {
 .chatbot_demo_container {
     position: absolute;
     top: 350px;
+    z-index: 1;
 }
 
 nav li:last-child {
@@ -185,6 +186,10 @@ nav a {
     font-size: 18px;
     line-height: 1.5;
     margin: 30px auto 32px auto;
+}
+
+.section_mainheader_button {
+    z-index: 2;
 }
 
 .empty_space {
@@ -1325,11 +1330,15 @@ nav a {
     font-weight: 600;
 }
 
+.section_multi_display {
+    padding: 150px 0 0 0;
+}
+
 .section_multi_display_h1 {
     font-size: 95px; 
     font-weight: 700;
     line-height: 0.9;
-    margin: 150px auto 0 auto;
+    margin: 0 auto 0 auto;
     max-width: 775px;
 }
 
